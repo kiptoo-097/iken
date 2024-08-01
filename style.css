@@ -16,7 +16,7 @@ body{
 }
 
 .header1 {
-    background: linear-gradient(to right, #001f3f, #003366);
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
     color: white;
     padding: 10px 0;
     position: -webkit-sticky; /* For Safari */
@@ -41,11 +41,19 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    padding: 5px 10px; /* Add some padding for better visual appearance */
+    display: inline-block; /* Ensures padding works correctly */
+    transition: color 0.3s, border 0.3s; /* Smooth transitions for color and border */
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: white;
+    background-color: black;
+    border: 2px solid white; /* Adds a white border on hover */
+    border-radius: 50px; /* Optional: Adds rounded corners to the border */
 }
+
+
 
 .section {
     padding: 60px 20px;
