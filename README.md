@@ -1,7 +1,5 @@
 # iKen Movie Web App
 
-![iKen Movie App Screenshot](https://github.com/kiptoo-097/iken/raw/main/screenshots/homepage.png)
-
 A modern web platform for browsing and watching movie trailers, featuring upcoming and popular films with detailed information.
 
 **Live Demo**: [https://kiptoo-097.github.io/iken/](https://kiptoo-097.github.io/iken/)  
